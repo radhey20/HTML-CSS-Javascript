@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(190, 248, 204);
+  box-sizing: border-box;
+}
+
+.main-container {
+  padding: 20px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.flex-column {
+  display: flex;
+  margin: 30px;
+}
+
+.image-flex {
+  max-width: 50%;
+  padding: 15px;
+  transition: ease-in 0.2s;
+  transform: translateX(30px);
+}
